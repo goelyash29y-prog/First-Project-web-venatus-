@@ -1,0 +1,133 @@
+body {
+  background-color: #ffffff;
+  font-family:sans-serif;
+  text-align:center;
+  padding-top: 40px;
+}
+.a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #daef68;
+  color: rgb(48, 49, 48);
+  padding: 10px 390px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family:sans-serif;
+  z-index: 1000;
+}
+.b {
+  position:fixed;
+  top:35px;
+  left:0;
+  width:100%;
+  background-color:#000000;
+  color:rgb(255, 255, 255);
+  padding:25px 390px;
+  display:flex;
+  gap:40px;
+  align-items:left;
+  font-family:sans-serif;
+  z-index:1000;
+}
+.c {
+  height: 100vh;
+  background-image: url('https://storage.googleapis.com/gweb-experiments.appspot.com/9134-01_Experiments_Hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.whole-border {
+  border: 83px solid #ffffff;
+  padding: 20px;
+  margin: 20px;
+}
+.d{position: absolute;
+  bottom: 0px;
+  left: 0px;        
+  background: rgba(84, 84, 84, 0.4);
+  padding: 20px 30px;
+  border-radius: 2px;
+  max-width: 90%;
+  align-items: left;
+}
+.z {
+  font-size: 50px;
+  margin: 0;
+  line-height: 1.2;
+  text-align: left;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+  }
+
+  .image-row img {
+    width: calc(33.33% - 10.66px);
+    height: auto;
+  }
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+.banner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9000;
+  min-width: 300px;
+  max-width: 90vw;
+  padding: 30px 40px 20px 40px;
+  background: rgb(203, 203, 117);
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .close-bnr {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+}
+.close-bnr {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.black-screen {
+  position:cover;
+  background-color: rgba(16, 14, 14, 0.5);
+  z-index: 8000;
+  opacity: 1%;
+}
